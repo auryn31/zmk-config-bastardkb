@@ -1,0 +1,12 @@
+file_format: "1"
+id: bastardkb
+name: bastardkb
+type: shield
+url: https://github.com/foostan/crkbd/
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+siblings:
+  - bastardkb_left
+  - bastardkb_right
