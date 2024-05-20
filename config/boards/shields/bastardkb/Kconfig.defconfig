@@ -1,5 +1,16 @@
-if BASTARDKB
-  config ZMK_KEYBOARD_NAME
+if BASTARDKB_LEFT
+config ZMK_KEYBOARD_NAME
     default "bastardkb"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_MY_BOARD_LEFT || SHIELD_MY_BOARD_RIGHT
+
+config ZMK_SPLIT
+    default y
+
 endif
   
