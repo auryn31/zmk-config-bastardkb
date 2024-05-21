@@ -1,4 +1,4 @@
-#include "bastardkb.overlay" // Notice that the main dtsi files are included in the overlay.
+#include "bastardkb.dtsi" // Notice that the main dtsi files are included in the overlay.
 
 &kscan0 {
     row-gpios
