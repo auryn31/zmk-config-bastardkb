@@ -1,9 +1,13 @@
-if SHIELD_BASTARDKB_LEFT
+# if SHIELD_BASTARDKB_LEFT
+if SHIELD_BASTARDKB_RIGHT
 config ZMK_KEYBOARD_NAME
     default "bastardkb"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
+
+config ZMK_USB
+	default y
 
 endif
 
