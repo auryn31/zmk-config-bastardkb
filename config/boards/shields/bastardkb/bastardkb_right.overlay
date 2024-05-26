@@ -1,5 +1,9 @@
 #include "bastardkb.dtsi" // Notice that the main dtsi files are included in the overlay.
 
+&default_transform { // The matrix transform for this board is 5
+    col-offset = <5>;
+};
+
 &kscan0 {
     row-gpios
         = <&pro_micro 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row A from the schematic file
