@@ -20,8 +20,8 @@
 include:
   - board: nice_nano_v2
     shield: bastardkb_right
-  # - board: nice_nano_v2
-  #   shield: bastardkb_left
+  - board: nice_nano_v2
+    shield: bastardkb_left
 
 # west build --pristine -b nrf52840dk_nrf52840 -- -DSHIELD=bastardkb_right -DZMK_EXTRA_MODULES=/Users/auryn_engel/coding/zmk-config-bastardkb/zmk-config-bastardkb
 

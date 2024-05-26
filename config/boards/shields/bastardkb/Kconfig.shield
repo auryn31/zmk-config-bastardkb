@@ -1,4 +1,4 @@
-# config SHIELD_BASTARDKB_LEFT
-#   def_bool $(shields_list_contains,bastardkb_left)
+config SHIELD_BASTARDKB_LEFT
+  def_bool $(shields_list_contains,bastardkb_left)
 config SHIELD_BASTARDKB_RIGHT
   def_bool $(shields_list_contains,bastardkb_right)

@@ -1,7 +1,7 @@
-# if SHIELD_BASTARDKB_LEFT
-if SHIELD_BASTARDKB_RIGHT
+if SHIELD_BASTARDKB_LEFT
+# if SHIELD_BASTARDKB_RIGHT
 config ZMK_KEYBOARD_NAME
-    default "bastardkb"
+    default "bastardkb_auryn"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
